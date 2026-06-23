@@ -254,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ROV-Light-Module.kicad_pro",
+    "filename": "ROV CTD.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -807,6 +807,21 @@
       "V_in_Mid": [
         "1 oz - 2 A"
       ],
+      "unconnected-(J7-Pin_11-Pad11)": [
+        "PCBway min 1 oz "
+      ],
+      "unconnected-(J7-Pin_6-Pad6)": [
+        "PCBway min 1 oz "
+      ],
+      "unconnected-(J7-Pin_9-Pad9)": [
+        "PCBway min 1 oz "
+      ],
+      "unconnected-(J8-Pin_3-Pad3)": [
+        "PCBway min 1 oz "
+      ],
+      "unconnected-(J8-Pin_5-Pad5)": [
+        "PCBway min 1 oz "
+      ],
       "unconnected-(U2-A8{slash}D8_MOSI-Pad11)": [
         "PCBway min 1 oz "
       ]
@@ -1101,8 +1116,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ROV-Light-Module.kicad_sch",
-        "name": "ROV-Light-Module",
+        "filename": "ROV CTD.kicad_sch",
+        "name": "ROV CTD",
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
@@ -1112,7 +1127,7 @@
   "sheets": [
     [
       "4b85b8a1-3b52-4af9-b3a4-471ab529b035",
-      "ROV-Light-Module"
+      "ROV CTD"
     ]
   ],
   "text_variables": {},
