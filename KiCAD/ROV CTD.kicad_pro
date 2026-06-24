@@ -774,6 +774,12 @@
       "Net-(D8-DO)": [
         "PCBway min 1 oz "
       ],
+      "Net-(J1-Ext)": [
+        "1 oz - 2 A"
+      ],
+      "Net-(J1-In)": [
+        "PCBway min 1 oz "
+      ],
       "Net-(J10-Pin_2)": [
         "PCBway min 1 oz "
       ],
@@ -1124,7 +1130,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "U1,#PWR11,#PWR31",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
