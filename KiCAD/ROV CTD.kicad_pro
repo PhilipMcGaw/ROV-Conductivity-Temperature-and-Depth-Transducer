@@ -760,7 +760,7 @@
         "1 oz - 2 A"
       ],
       "Net-(D6-A)": [
-        "1 oz - 2 A"
+        "PCBway min 1 oz "
       ],
       "Net-(D6-DIN)": [
         "PCBway min 1 oz "
@@ -1130,7 +1130,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R8,J15,D6,#PWR12,#PWR54",
     "variants": []
   },
   "sheets": [
