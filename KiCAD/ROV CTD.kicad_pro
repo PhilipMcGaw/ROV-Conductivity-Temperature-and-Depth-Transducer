@@ -589,7 +589,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "+3V3": [
-        "1 oz - 1 A"
+        "PCBway min 1 oz "
       ],
       "+5V": [
         "1 oz - 2 A"
@@ -1130,7 +1130,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "R8,J15,D6,#PWR12,#PWR54",
+    "used_designators": "R12-15,#PWR3,#PWR6-7,#PWR10,#PWR18,#PWR22-24,JP3-4,C7",
     "variants": []
   },
   "sheets": [
