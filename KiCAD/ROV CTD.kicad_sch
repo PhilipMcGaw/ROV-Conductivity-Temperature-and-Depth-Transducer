@@ -7385,7 +7385,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 157.48) (xy 53.34 165.1)
+			(xy 44.45 157.48) (xy 44.45 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7472,6 +7472,16 @@
 			(type default)
 		)
 		(uuid "3e71ec82-6ba5-4f6a-8287-0b781add6429")
+	)
+	(wire
+		(pts
+			(xy 41.91 170.18) (xy 49.53 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee881f4-443d-458b-a256-d8c95d7f89b2")
 	)
 	(wire
 		(pts
@@ -7715,7 +7725,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 162.56) (xy 50.8 162.56)
+			(xy 46.99 162.56) (xy 41.91 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7885,7 +7895,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 175.26) (xy 55.88 162.56)
+			(xy 46.99 175.26) (xy 46.99 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8455,6 +8465,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 167.64) (xy 49.53 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cb2600-d976-4d06-89a2-6af1d8922ae2")
+	)
+	(wire
+		(pts
 			(xy 106.68 125.73) (xy 119.38 125.73)
 		)
 		(stroke
@@ -8585,6 +8605,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 172.72) (xy 49.53 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00b03eb-b292-42ed-9c93-24e70be1b64e")
+	)
+	(wire
+		(pts
 			(xy 104.14 72.39) (xy 101.6 72.39)
 		)
 		(stroke
@@ -8605,7 +8635,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 165.1) (xy 53.34 165.1)
+			(xy 41.91 165.1) (xy 44.45 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8772,6 +8802,16 @@
 			(justify right bottom)
 		)
 		(uuid "156f05d9-bd00-406c-a182-cd01faec6a70")
+	)
+	(label "SCL{slash}SCLK"
+		(at 49.53 167.64 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "170a71e0-39b9-4fef-9d63-7cadbc592b9a")
 	)
 	(label "Builtin_LED"
 		(at 120.65 27.94 0)
@@ -9043,6 +9083,16 @@
 		)
 		(uuid "e1a161a7-41db-4277-a0c7-2608d9a697cc")
 	)
+	(label "SDO"
+		(at 49.53 172.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26286b8-843e-479b-97df-e73621317dbe")
+	)
 	(label "Data_B"
 		(at 127 69.85 0)
 		(effects
@@ -9062,6 +9112,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8a47f76-a157-4d86-b909-bae662d2e43c")
+	)
+	(label "SDA{slash}SDI"
+		(at 49.53 170.18 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef71008a-e646-4856-af00-98ef5f0b391b")
 	)
 	(label "Data_A"
 		(at 127 64.77 0)
@@ -9159,6 +9219,42 @@
 		)
 		(property "Component Class" ""
 			(at -95.25 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 73.66 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "14408ac2-d5ac-4012-b31a-0669dbb452b4")
+		(property "Net Class" "PCBway min 1 oz "
+			(at 74.2899 176.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -171.45 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9316,6 +9412,42 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
+		(at 73.66 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ee74d74-1333-47b2-be50-086658026ab8")
+		(property "Net Class" "PCBway min 1 oz "
+			(at 74.2899 171.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -171.45 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
 		(at 24.13 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9339,6 +9471,42 @@
 		)
 		(property "Component Class" ""
 			(at -220.98 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 73.66 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f2aba45-8936-413d-85b8-c85d1b243b35")
+		(property "Net Class" "PCBway min 1 oz "
+			(at 74.2899 174.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -171.45 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9748,6 +9916,42 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
+		(at 73.66 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "97db7692-042a-4022-afae-588c6a1d0d92")
+		(property "Net Class" "PCBway min 1 oz "
+			(at 74.2899 166.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -171.45 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
 		(at 110.49 25.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10131,6 +10335,42 @@
 		)
 		(property "Component Class" ""
 			(at 313.69 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 73.66 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e969140a-2216-4344-9afd-0870be3a4008")
+		(property "Net Class" "PCBway min 1 oz "
+			(at 74.2899 169.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -171.45 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11531,7 +11771,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 53.34 157.48 0)
+		(at 44.45 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11542,7 +11782,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f735be6-68f0-488a-a766-9cf2a3ae0f26")
 		(property "Reference" "#PWR04"
-			(at 53.34 161.29 0)
+			(at 44.45 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11553,7 +11793,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 55.88 156.2099 0)
+			(at 46.99 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11564,7 +11804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 157.48 0)
+			(at 44.45 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11575,7 +11815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 157.48 0)
+			(at 44.45 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11586,7 +11826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 157.48 0)
+			(at 44.45 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12466,7 +12706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 175.26 0)
+		(at 46.99 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12477,7 +12717,7 @@
 		(fields_autoplaced yes)
 		(uuid "506d05a4-9ad2-4b95-8aad-3d888b54145a")
 		(property "Reference" "#PWR015"
-			(at 55.88 181.61 0)
+			(at 46.99 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12488,18 +12728,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 176.5299 0)
+			(at 44.45 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 175.26 0)
+			(at 46.99 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12510,7 +12750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 175.26 0)
+			(at 46.99 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12521,7 +12761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 175.26 0)
+			(at 46.99 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14482,7 +14722,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 45.72 167.64 0)
+		(at 36.83 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14493,7 +14733,7 @@
 		(fields_autoplaced yes)
 		(uuid "94a1cb60-b393-46e7-b4b2-ad2612f9c36d")
 		(property "Reference" "J13"
-			(at 46.355 157.48 0)
+			(at 37.465 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14503,7 +14743,7 @@
 			)
 		)
 		(property "Value" "Interface"
-			(at 46.355 160.02 0)
+			(at 37.465 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14513,7 +14753,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 45.72 167.64 0)
+			(at 36.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14524,7 +14764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 167.64 0)
+			(at 36.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +14775,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 45.72 167.64 0)
+			(at 36.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16716,7 +16956,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e18a5113-342c-4fd9-90ac-598a1b4c6568")
 		(property "Reference" "J15"

@@ -633,6 +633,9 @@
       "/A9{slash}D9": [
         "PCBway min 1 oz "
       ],
+      "/AD{slash}CS": [
+        "PCBway min 1 oz "
+      ],
       "/B": [
         "PCBway min 1 oz "
       ],
@@ -672,6 +675,9 @@
       "/Neo_Up": [
         "PCBway min 1 oz "
       ],
+      "/PS": [
+        "PCBway min 1 oz "
+      ],
       "/PWM": [
         "PCBway min 1 oz "
       ],
@@ -690,7 +696,16 @@
       "/SCL": [
         "PCBway min 1 oz "
       ],
+      "/SCL{slash}SCLK": [
+        "PCBway min 1 oz "
+      ],
       "/SDA": [
+        "PCBway min 1 oz "
+      ],
+      "/SDA{slash}SDI": [
+        "PCBway min 1 oz "
+      ],
+      "/SDO": [
         "PCBway min 1 oz "
       ],
       "/SERIAL_DIR": [
@@ -1130,7 +1145,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "R12-15,#PWR3,#PWR6-7,#PWR10,#PWR18,#PWR22-24,JP3-4,C7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
