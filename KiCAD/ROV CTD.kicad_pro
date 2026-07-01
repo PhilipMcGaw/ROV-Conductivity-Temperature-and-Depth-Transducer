@@ -615,7 +615,13 @@
       "/A": [
         "PCBway min 1 oz "
       ],
+      "/A0{slash}D0": [
+        "PCBway min 1 oz "
+      ],
       "/A10{slash}D10": [
+        "PCBway min 1 oz "
+      ],
+      "/A1{slash}D1": [
         "PCBway min 1 oz "
       ],
       "/A3": [
@@ -1145,7 +1151,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "#PWR25,#PWR61",
+    "used_designators": "H1-4",
     "variants": []
   },
   "sheets": [

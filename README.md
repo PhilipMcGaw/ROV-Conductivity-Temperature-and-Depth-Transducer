@@ -21,4 +21,6 @@ You may use, study, modify, and redistribute the sorcecode, schematic and PCB la
 
 ## Sources 
 
-- [OpenCTD](https://github.com/OceanographyforEveryone/OpenCTD)
+- [OpenCTD](https://oceanographyforeveryone.com/)
+- [OpenCTD Github](https://github.com/OceanographyforEveryone/OpenCTD)
+
