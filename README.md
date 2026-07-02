@@ -24,3 +24,5 @@ You may use, study, modify, and redistribute the sorcecode, schematic and PCB la
 - [OpenCTD](https://oceanographyforeveryone.com/)
 - [OpenCTD Github](https://github.com/OceanographyforEveryone/OpenCTD)
 
+- [Conduino](https://github.com/feslab/conduino)
+- [OpenCTD with Conduino](https://github.com/kpdangelo/OpenCTDwithConduino)

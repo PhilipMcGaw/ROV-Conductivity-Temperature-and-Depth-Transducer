@@ -603,6 +603,9 @@
       "+Ve": [
         "1 oz - 1 A"
       ],
+      "-3V3": [
+        "PCBway min 1 oz "
+      ],
       "/1Wire": [
         "PCBway min 1 oz "
       ],
@@ -685,6 +688,21 @@
         "PCBway min 1 oz "
       ],
       "/PWM": [
+        "PCBway min 1 oz "
+      ],
+      "/Pressure Transducer/AD{slash}CS": [
+        "PCBway min 1 oz "
+      ],
+      "/Pressure Transducer/PS": [
+        "PCBway min 1 oz "
+      ],
+      "/Pressure Transducer/SCL{slash}SCLK": [
+        "PCBway min 1 oz "
+      ],
+      "/Pressure Transducer/SDA{slash}SDI": [
+        "PCBway min 1 oz "
+      ],
+      "/Pressure Transducer/SDO": [
         "PCBway min 1 oz "
       ],
       "/RESET": [
@@ -787,6 +805,9 @@
         "PCBway min 1 oz "
       ],
       "Net-(D6-DO)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(D7-A)": [
         "PCBway min 1 oz "
       ],
       "Net-(D7-DO)": [
@@ -1151,13 +1172,21 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "H1-4",
+    "used_designators": "TP1,D6-7,#PWR35-36,#PWR48,#PWR51,R8,R16",
     "variants": []
   },
   "sheets": [
     [
       "4b85b8a1-3b52-4af9-b3a4-471ab529b035",
       "ROV CTD"
+    ],
+    [
+      "150d263f-d8d0-41bc-b04b-394586738282",
+      "Pressure Transducer"
+    ],
+    [
+      "ca4f46b8-1067-479f-855d-d4866b315eff",
+      "Conductivity Transducer"
     ]
   ],
   "text_variables": {},
